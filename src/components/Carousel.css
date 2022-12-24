@@ -31,18 +31,18 @@ button.forward{
     margin: 0 auto;
     left: 0;
     right: 0;
-    padding: 20px;
-    border-radius: 20px;
+    padding: 10px;
+    border-radius: 10px;
     max-width: 25vw;
     text-align: center;
 }
 
 h1.overlay{
     top: 30%;
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 h3.overlay{
     top: 50%;
-    font-size: 3rem;
+    font-size: 1.5rem;
 }

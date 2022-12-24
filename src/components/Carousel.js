@@ -34,8 +34,8 @@ class Carousel extends Component {
         let data=images[this.state.currentSlide]
         return (
             <div className="Carousel">
-                <button onClick={() => this.changeImage(false)} className="back"> <ArrowBackIosIcon sx={{ color:"#ffffff",fontSize: 50, padding:"10px" }}/> </button>
-                <button onClick={() => this.changeImage(true)} className="forward"> <ArrowForwardIosIcon sx={{ color:"#ffffff",fontSize: 50, padding:"10px" }}/> </button>
+                <button onClick={() => this.changeImage(false)} className="back"> <ArrowBackIosIcon sx={{ color:"#ffffff",fontSize: 30, padding:"5px" }}/> </button>
+                <button onClick={() => this.changeImage(true)} className="forward"> <ArrowForwardIosIcon sx={{ color:"#ffffff",fontSize: 30, padding:"5px" }}/> </button>
 
                 <div className="content">
                     <h1 className="overlay">{data.title}</h1>
