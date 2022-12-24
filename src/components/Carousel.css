@@ -1,1 +1,48 @@
 /* write your carousel css in this file */
+.Carousel{
+    height: fit-content; 
+    width: fit-content;
+
+}
+
+.content img{
+    object-fit: cover;
+    width: 40vw;
+    height: 35vw;
+    
+}
+
+.Carousel button{
+    background-color: #00000096;
+    padding: 0 10px;
+    border: none;
+    height: 35vw;
+    position: absolute;
+}
+
+button.forward{
+    right: 30vw;
+}
+
+.overlay{
+    background-color: rgba(255, 255, 255, 0.66);
+    width: fit-content;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 25vw;
+    text-align: center;
+}
+
+h1.overlay{
+    top: 30%;
+    font-size: 4rem;
+}
+
+h3.overlay{
+    top: 50%;
+    font-size: 3rem;
+}
